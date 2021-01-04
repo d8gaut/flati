@@ -107,13 +107,26 @@ nav .lien ul a {
 }
 .bleue .fin {
   text-align: center;
+  font-size: small;
+}
+.bleue .fin h6 {
+  padding-top: 30px;
+  text-transform: uppercase;
 }
 .bleue .social {
   font-size: x-large;
+  color: #3d5c7e;
 }
 
 .black {
   background-color: #252525;
+}
+.black p {
+  color: #585757;
+  text-transform: lowercase;
+  text-align: center;
+  padding: 20px;
+  font-size: x-small;
 }
 
 /*# sourceMappingURL=style.css.map */
