@@ -98,7 +98,9 @@ nav .lien ul a {
   color: white;
   border: none;
 }
-
+.recent button:hover {
+  color: black;
+}
 /*footer*/
 .bleue {
   background-color: #4191ec;
