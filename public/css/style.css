@@ -3,34 +3,32 @@ body {
 }
 
 nav {
-  background: #39495a;
+  background: #404b57;
   display: flex;
   width: 100vw;
 }
 nav .titre {
   color: #ece7e7;
   display: flex;
-  flex: 1;
   align-items: center;
   justify-content: center;
 }
-
-.lien {
+nav .lien {
   display: flex;
-  flex: 2;
 }
-.lien ul {
+nav .lien ul {
   display: flex;
   align-items: flex-end;
 }
-.lien ul li {
-  display: flex;
+nav .lien ul li {
   list-style: none;
   text-decoration: none;
   justify-content: flex-end;
   align-items: flex-end;
+  color: white;
+  font-size: small;
 }
-.lien ul li a {
+nav .lien ul a {
   padding: 20px;
 }
 
@@ -43,10 +41,76 @@ nav .titre {
   border-bottom: solid 1px #dbd8d8;
   padding: 50px 100px;
   text-align: center;
-  font-size: large;
+  font-size: x-large;
 }
 .citation .one {
   padding-bottom: 20px;
+}
+.citation .one .program {
+  background: #4191ec;
+  color: white;
+}
+.citation .one .complexity {
+  color: #4191ec;
+}
+
+.bazar {
+  display: flex;
+  margin: 70px 200px;
+}
+.bazar .machin1 {
+  font-size: x-small;
+  height: 250px;
+  width: 220px;
+  border: solid 1px #4d4b4b;
+  background-color: #d7dedf;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1px;
+  margin: 1px 25px;
+}
+.bazar .logo {
+  border: solid 1px #666464;
+  border-radius: 90%;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  margin: 5px 40%;
+}
+.bazar .logo i {
+  color: #4191ec;
+  text-align: center;
+}
+.bazar .h4 {
+  font-size: small;
+}
+.bazar .h4 span {
+  color: #4191ec;
+}
+
+.recent {
+  float: left;
+  width: 20vw;
+  font-size: x-small;
+}
+.recent button {
+  background-color: #4191ec;
+  border-radius: 6px;
+  padding: 8px;
+  color: white;
+  border: none;
+}
+
+.bleue {
+  background-color: #4191ec;
+  color: white;
+}
+.bleue .fin {
+  text-align: center;
+}
+
+.black {
+  background-color: #252525;
 }
 
 /*# sourceMappingURL=style.css.map */
