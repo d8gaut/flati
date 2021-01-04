@@ -1,5 +1,52 @@
-p {
-  background: #000;
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  background: #39495a;
+  display: flex;
+  width: 100vw;
+}
+nav .titre {
+  color: #ece7e7;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.lien {
+  display: flex;
+  flex: 2;
+}
+.lien ul {
+  display: flex;
+  align-items: flex-end;
+}
+.lien ul li {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.lien ul li a {
+  padding: 20px;
+}
+
+.banniere img {
+  width: 100vw;
+  height: 300px;
+}
+
+.citation {
+  border-bottom: solid 1px #dbd8d8;
+  padding: 50px 100px;
+  text-align: center;
+  font-size: large;
+}
+.citation .one {
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
