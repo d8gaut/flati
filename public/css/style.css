@@ -1,7 +1,4 @@
-body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
+/*nav+banniere*/
 nav {
   background: #404b57;
   display: flex;
@@ -37,6 +34,7 @@ nav .lien ul a {
   height: 300px;
 }
 
+/*citation+section*/ 
 .citation {
   border-bottom: solid 1px #dbd8d8;
   padding: 50px 100px;
@@ -101,6 +99,7 @@ nav .lien ul a {
   border: none;
 }
 
+/*footer*/
 .bleue {
   background-color: #4191ec;
   color: white;
@@ -127,6 +126,10 @@ nav .lien ul a {
   text-align: center;
   padding: 20px;
   font-size: x-small;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
