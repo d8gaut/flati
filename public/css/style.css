@@ -79,7 +79,7 @@ nav .lien ul a {
 }
 .bazar .logo i {
   color: #4191ec;
-  text-align: center;
+  font-size: x-large;
 }
 .bazar .h4 {
   font-size: small;
@@ -107,6 +107,9 @@ nav .lien ul a {
 }
 .bleue .fin {
   text-align: center;
+}
+.bleue .social {
+  font-size: x-large;
 }
 
 .black {
