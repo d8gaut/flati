@@ -1,32 +1,54 @@
 /*nav+banniere*/
 nav {
-  background: #404b57;
+  background: #404c57;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  width: 100vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
+
 nav .titre {
   color: #ece7e7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 20px;
 }
+
 nav .lien {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 nav .lien ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
+
 nav .lien ul li {
   list-style: none;
   text-decoration: none;
-  justify-content: flex-end;
-  align-items: flex-end;
-  color: white;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   font-size: small;
 }
+
 nav .lien ul a {
+  color: #7c7a7a;
+  text-transform: uppercase;
   padding: 20px;
+}
+
+nav .lien ul a:hover {
+  background-color: #0f589c;
+  text-decoration: none;
 }
 
 .banniere img {
@@ -34,39 +56,46 @@ nav .lien ul a {
   height: 300px;
 }
 
-/*citation+section*/ 
+/*citation+section*/
 .citation {
-  border-bottom: solid 1px #dbd8d8;
+  border-bottom: solid 1px #b1aeae;
   padding: 50px 100px;
   text-align: center;
   font-size: x-large;
 }
+
 .citation .one {
   padding-bottom: 20px;
 }
+
 .citation .one .program {
   background: #4191ec;
   color: white;
 }
+
 .citation .one .complexity {
   color: #4191ec;
 }
 
 .bazar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 70px 200px;
 }
+
 .bazar .machin1 {
   font-size: x-small;
   height: 250px;
   width: 220px;
-  border: solid 1px #4d4b4b;
+  border: solid  1px #4d4b4b;
   background-color: #d7dedf;
   border-radius: 20px;
   text-align: center;
   padding: 1px;
   margin: 1px 25px;
 }
+
 .bazar .logo {
   border: solid 1px #666464;
   border-radius: 90%;
@@ -75,13 +104,16 @@ nav .lien ul a {
   width: 40px;
   margin: 5px 40%;
 }
+
 .bazar .logo i {
   color: #4191ec;
   font-size: x-large;
 }
+
 .bazar .h4 {
   font-size: small;
 }
+
 .bazar .h4 span {
   color: #4191ec;
 }
@@ -91,6 +123,7 @@ nav .lien ul a {
   width: 20vw;
   font-size: x-small;
 }
+
 .recent button {
   background-color: #4191ec;
   border-radius: 6px;
@@ -98,22 +131,27 @@ nav .lien ul a {
   color: white;
   border: none;
 }
+
 .recent button:hover {
   color: black;
 }
+
 /*footer*/
 .bleue {
   background-color: #4191ec;
   color: white;
 }
+
 .bleue .fin {
   text-align: center;
   font-size: small;
 }
+
 .bleue .fin h6 {
   padding-top: 30px;
   text-transform: uppercase;
 }
+
 .bleue .social {
   font-size: x-large;
   color: #3d5c7e;
@@ -122,6 +160,7 @@ nav .lien ul a {
 .black {
   background-color: #252525;
 }
+
 .black p {
   color: #585757;
   text-transform: lowercase;
@@ -131,7 +170,6 @@ nav .lien ul a {
 }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 /*# sourceMappingURL=style.css.map */
